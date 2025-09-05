@@ -1,0 +1,141 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1260px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    box-shadow: #2e2e2e;
+}
+
+header img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffff;
+}
+
+nav a:hover{
+    padding:5px 0px ;
+    color: black;
+}
+
+.botao{
+    background-color: #e30613;
+    padding: 5px 15px 1px;
+    color: #ffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+main{
+    position: relative;
+    z-index: -1;
+}
+
+main img{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+}
+
+span{
+    color: #e30613;
+    font-weight: bolder;
+}
+
+.destaqueTexto{
+    width: 250px;
+    height: 160px;
+    background-color: #ffffffc7;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+.destaqueTexto h1{
+    margin: 1px 15px;
+}
+
+destaqueTexto input{
+    background-color: #e30613;
+    padding: 5px 15px 1px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    margin-top: 1px;
+    margin: 5px 75px;
+    border: 0;
+    cursor: pointer;
+}
+
+.destaqueTexto input:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.fixed{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    font-weight: bolder;
+    background-color: lightgreen;
+    bottom: 110px;
+    right: 30px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 1260px;
+    border-top: 1px dashed red;
+    background-color: #2e2d2ddc;
+}
+
+footer img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.footerTexto{
+    text-align: left;
+    margin-right: 150px;
+    color: #ffff;
+}
